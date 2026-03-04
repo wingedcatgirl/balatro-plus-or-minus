@@ -1,0 +1,16 @@
+{
+	"id": "balaplusorminus",
+	"name": "Balatro±",
+	"display_name": "Balatro±",
+	"author": ["mys. minty wingedcatgirl"],
+	"description": "The greatest Balamod of all time",
+	"prefix": "plusminus",
+	"main_file": "main.lua",
+	"priority": -1,
+	"badge_colour": "CA7CA7",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0~BETA20260303",
+	"dependencies": [
+			"Steamodded(>=1.0.0~BETA-1501a)"
+	]
+}
