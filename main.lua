@@ -71,7 +71,7 @@ SMODS.Joker{
             }
         end
 
-        if context.end_of_round and context.main_eval then
+        if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
                 scalar_value = "chips",
@@ -116,7 +116,7 @@ SMODS.Joker{
             }
         end
 
-        if context.end_of_round and context.main_eval then
+        if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
                 scalar_value = "chips",
@@ -168,7 +168,7 @@ SMODS.Joker{
             }
         end
 
-        if context.end_of_round and context.main_eval then
+        if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
                 scalar_value = "chips",
@@ -227,7 +227,7 @@ SMODS.Joker{
             }
         end
 
-        if context.end_of_round and context.main_eval then
+        if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
                 scalar_value = "chips",
@@ -293,7 +293,7 @@ SMODS.Joker{
             }
         end
 
-        if context.end_of_round and context.main_eval then
+        if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
                 scalar_value = "chips",
@@ -370,7 +370,7 @@ SMODS.Joker{
             }
         end
 
-        if context.end_of_round and context.main_eval then
+        if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
                 scalar_value = "chips",
