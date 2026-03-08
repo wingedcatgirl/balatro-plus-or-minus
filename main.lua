@@ -74,8 +74,8 @@ SMODS.Joker{
         if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chips",
-                ref_value = "chipgain"
+                ref_value = "chips",
+                scalar_value = "chipgain"
             })
             return nil,true
         end
@@ -119,14 +119,14 @@ SMODS.Joker{
         if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chips",
-                ref_value = "chipgain",
+                ref_value = "chips",
+                scalar_value = "chipgain",
                 no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chipgain",
-                ref_value = "chipgaingain",
+                ref_value = "chipgain",
+                scalar_value = "chipgaingain",
             })
             return nil, true
         end
@@ -171,20 +171,20 @@ SMODS.Joker{
         if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chips",
-                ref_value = "chipgain",
-                no_message = true
-            })
-            SMODS.scale_card(card, {
-                scalar_table = card.ability.extra,
+                ref_value = "chips",
                 scalar_value = "chipgain",
-                ref_value = "chipgaingain",
                 no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgain",
                 scalar_value = "chipgaingain",
-                ref_value = "chipgaingaingain",
+                no_message = true
+            })
+            SMODS.scale_card(card, {
+                scalar_table = card.ability.extra,
+                ref_value = "chipgaingain",
+                scalar_value = "chipgaingaingain",
             })
             return nil, true
         end
@@ -230,26 +230,26 @@ SMODS.Joker{
         if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chips",
-                ref_value = "chipgain",
-                no_message = true
-            })
-            SMODS.scale_card(card, {
-                scalar_table = card.ability.extra,
+                ref_value = "chips",
                 scalar_value = "chipgain",
-                ref_value = "chipgaingain",
                 no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgain",
                 scalar_value = "chipgaingain",
-                ref_value = "chipgaingaingain",
+                no_message = true
+            })
+            SMODS.scale_card(card, {
+                scalar_table = card.ability.extra,
+                ref_value = "chipgaingain",
+                scalar_value = "chipgaingaingain",
                 no_message = true,
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chipgaingaingain",
-                ref_value = "chipgaingaingaingain",
+                ref_value = "chipgaingaingain",
+                scalar_value = "chipgaingaingaingain",
             })
             return nil, true
         end
@@ -296,32 +296,32 @@ SMODS.Joker{
         if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chips",
-                ref_value = "chipgain",
-                no_message = true
-            })
-            SMODS.scale_card(card, {
-                scalar_table = card.ability.extra,
+                ref_value = "chips",
                 scalar_value = "chipgain",
-                ref_value = "chipgaingain",
                 no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgain",
                 scalar_value = "chipgaingain",
-                ref_value = "chipgaingaingain",
-                no_message = true,
+                no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgaingain",
                 scalar_value = "chipgaingaingain",
-                ref_value = "chipgaingaingaingain",
                 no_message = true,
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgaingaingain",
                 scalar_value = "chipgaingaingaingain",
-                ref_value = "chipgaingaingaingaingain",
+                no_message = true,
+            })
+            SMODS.scale_card(card, {
+                scalar_table = card.ability.extra,
+                ref_value = "chipgaingaingaingain",
+                scalar_value = "chipgaingaingaingaingain",
             })
             return nil, true
         end
@@ -373,38 +373,38 @@ SMODS.Joker{
         if context.end_of_round and context.main_eval and not context.blueprint then
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
-                scalar_value = "chips",
-                ref_value = "chipgain",
-                no_message = true
-            })
-            SMODS.scale_card(card, {
-                scalar_table = card.ability.extra,
+                ref_value = "chips",
                 scalar_value = "chipgain",
-                ref_value = "chipgaingain",
                 no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgain",
                 scalar_value = "chipgaingain",
-                ref_value = "chipgaingaingain",
-                no_message = true,
+                no_message = true
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgaingain",
                 scalar_value = "chipgaingaingain",
-                ref_value = "chipgaingaingaingain",
                 no_message = true,
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgaingaingain",
                 scalar_value = "chipgaingaingaingain",
-                ref_value = "chipgaingaingaingaingain",
                 no_message = true,
             })
             SMODS.scale_card(card, {
                 scalar_table = card.ability.extra,
+                ref_value = "chipgaingaingaingain",
                 scalar_value = "chipgaingaingaingaingain",
-                ref_value = "chipgaingaingaingaingaingain",
+                no_message = true,
+            })
+            SMODS.scale_card(card, {
+                scalar_table = card.ability.extra,
+                ref_value = "chipgaingaingaingaingain",
+                scalar_value = "chipgaingaingaingaingaingain",
             })
             return nil, true
         end
